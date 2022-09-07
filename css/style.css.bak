@@ -1,0 +1,115 @@
+/*   header   */
+.wrapper
+{
+    
+    position: fixed;
+    
+    width: 100%;
+    margin: 0 auto;
+    background: #892422;
+    size: cover;
+}
+
+header.top_header .wrapper{
+    display: flex;
+    height: 10%;
+    border-top: none;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    color: #000000;
+    font-style: normal;
+    font-size: 32px;
+    line-height: 44px;
+}
+header.top_header .wrapper .logo{
+    size: cover;
+	margin-left: 10%;
+}
+header.top_header .wrapper .logo .img{
+    size: cover;
+	height: 100%;
+}
+header.top_header .wrapper nav{
+    color: #000000;
+    font-style: 800;
+    font-size: 40px;
+    line-height: 340px;
+    size: cover;
+}
+header.top_header .wrapper nav a{
+    color: #000000;
+    text-decoration: none;
+}
+header.top_header .wrapper nav a:hover{
+    color: #3b3b3be1;
+    text-decoration-style: dashed;
+    text-decoration: underline;
+}
+/*   page one   */
+.page1{
+    min-height: 400px;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+
+    
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: inline-block;
+	
+	
+}
+.title-page1
+{    
+
+    width: 100%;
+	height: 10%;
+	margin: 0 auto;
+    margin-top: 10vh;
+    background: #9F9A9A;
+	
+	font-style: normal;
+	font-weight: 500;
+	font-size: 36px;
+	line-height: 50%;
+	/* or 36px */
+
+	display: flex;
+	align-items: center;
+	text-align: center;
+
+	color: #000000;
+}
+
+.page1 .download-page1{
+    width: 80vw;
+	height: 10vh;
+	margin: 3%;
+	margin-left: 10%;
+	/* text */
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 100%;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	color: #000000;
+	text-decoration:none;
+	
+	/* rectangle */
+	background: #D9D9D9;
+	mix-blend-mode: normal;
+	box-shadow: -5px 5px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 10px;
+	border:1px solid black;
+}
+.page1 .download-page1:hover{
+	/* rectangle */
+	background: #892422;
+	color: #FFFFFF;
+}
