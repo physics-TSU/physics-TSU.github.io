@@ -73,14 +73,14 @@ header.top_header .wrapper nav a:hover{
     background: #9F9A9A;
 	
 	font-style: normal;
-	font-weight: 500;
-	font-size: 36px;
-	line-height: 50%;
+	font-size: calc(0.35*10vh);
+	line-height: 100%;
 	/* or 36px */
 
 	display: flex;
 	align-items: center;
 	text-align: center;
+	justify-content: center;
 
 	color: #000000;
 }
@@ -92,14 +92,15 @@ header.top_header .wrapper nav a:hover{
 	margin-left: 10%;
 	/* text */
 	font-style: normal;
-	font-weight: 400;
-	font-size: 24px;
+	
+	font-size: calc(0.35*10vh);
 	line-height: 100%;
 	display: flex;
 	align-items: center;
 	text-align: center;
 	color: #000000;
 	text-decoration:none;
+	justify-content: center;
 	
 	/* rectangle */
 	background: #D9D9D9;
