@@ -20,7 +20,7 @@ body{
     font-family: 'Inter', sans-serif;
     color: #000000;
     font-style: normal;
-    font-size: 32px;
+    font-size: calc(0.35*10vh);
     line-height: 44px;
 }
 header.top_header .wrapper .logo{
@@ -34,7 +34,7 @@ header.top_header .wrapper .logo .img{
 header.top_header .wrapper nav{
     color: #000000;
     font-style: 800;
-    font-size: 40px;
+    font-size: calc(0.40*10vh);
     line-height: 340px;
     size: cover;
 }
@@ -73,7 +73,7 @@ header.top_header .wrapper nav a:hover{
     background: #9F9A9A;
 	
 	font-style: normal;
-	font-size: calc(0.5*10vh);
+	font-size: calc(0.4*10vh);
 	line-height: 100%;
 	/* or 36px */
 
@@ -93,7 +93,7 @@ header.top_header .wrapper nav a:hover{
 	/* text */
 	font-style: normal;
 	
-	font-size: calc(0.35*10vh);
+	font-size: calc(0.3*10vh);
 	line-height: 100%;
 	display: flex;
 	align-items: center;
